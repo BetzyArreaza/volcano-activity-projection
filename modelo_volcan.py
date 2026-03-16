@@ -62,6 +62,12 @@ plt.ylabel("Número de explosiones")
 plt.title("Modelo avanzado de actividad del Volcán de Fuego")
 plt.legend()
 
+# guardar con el nombre que usa el HTML
+plt.savefig("volcano_model.png")
+
+plt.show()
+plt.legend()
+
 plt.savefig("modelo_volcan_avanzado.png")
 
 plt.show()
